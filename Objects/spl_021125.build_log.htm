@@ -27,7 +27,18 @@ Project File Date:  11/02/2025
 <h2>Output:</h2>
 *** Using Compiler 'V6.14', folder: 'C:\Keil_v5\ARM\ARMCLANG\Bin'
 Build target 'Target 1'
-".\Objects\spl_021125.axf" - 0 Error(s), 0 Warning(s).
+user_task.c(1): warning: In file included from...
+./user_task.h(4): warning: In file included from...
+./main.h(12): warning: In file included from...
+C:/Users/QUAN/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/11.1.0/Source/include\FreeRTOS.h(64): warning: In file included from...
+./RTE/RTOS\FreeRTOSConfig.h(352): warning: '__ARM_ARCH_7A__' is not defined, evaluates to 0 [-Wundef]
+#if (__ARM_ARCH_7A__ == 1U)
+     ^
+1 warning generated.
+compiling user_task.c...
+linking...
+Program Size: Code=9036 RO-data=272 RW-data=8 ZI-data=12792  
+".\Objects\spl_021125.axf" - 0 Error(s), 1 Warning(s).
 
 <h2>Software Packages used:</h2>
 
