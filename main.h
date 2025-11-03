@@ -17,6 +17,7 @@
 #include "event_groups.h"
 
 #include "user_task.h"
+#include "adc.h"
 
 
 typedef struct 

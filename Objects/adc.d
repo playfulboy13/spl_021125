@@ -1,4 +1,4 @@
-./objects/main.o: main.c main.h \
+./objects/adc.o: adc.c adc.h main.h \
   C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdio.h \
   C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdlib.h \
   C:\Keil_v5\ARM\ARMCLANG\Bin\..\include\string.h \
@@ -49,4 +49,4 @@
   C:\Users\QUAN\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.1.0\Source\include\timers.h \
   C:\Users\QUAN\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.1.0\Source\include\event_groups.h \
   C:\Users\QUAN\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\11.1.0\Source\include\timers.h \
-  user_task.h adc.h
+  user_task.h

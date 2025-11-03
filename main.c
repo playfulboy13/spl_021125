@@ -6,6 +6,7 @@ int main(void)
 	GPIO_Config();
 	
 	xTaskCreate(Task1,"Task1",128,NULL,5,NULL);
+	xTaskCreate(TaskAdc,"Task",128,NULL,5,NULL);
 	vTaskStartScheduler();
 	
 	while(1);
