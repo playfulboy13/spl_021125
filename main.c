@@ -7,6 +7,8 @@ int main(void)
 	
 	xTaskCreate(Task1,"Task1",128,NULL,5,NULL);
 	xTaskCreate(TaskAdc,"Task",128,NULL,5,NULL);
+	xTaskCreate(TaskSendUsart,"TaskSendUsart",128,NULL,5,NULL);
+	
 	vTaskStartScheduler();
 	
 	while(1);

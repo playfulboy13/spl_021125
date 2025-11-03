@@ -19,6 +19,8 @@
 #include "user_task.h"
 #include "adc.h"
 
+#include "usart.h"
+
 
 typedef struct 
 {
